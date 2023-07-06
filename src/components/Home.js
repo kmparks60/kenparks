@@ -115,7 +115,7 @@ function Home() {
                    maxWidth="md"
                    className='bg-slate-600 rounded-md'>
           <Grid container spacing={4} className='place-content-center'>
-          <ImageList sx={{ width: 400, height: 650 }} cols={2} rowHeight={164}>
+          <ImageList sx={{width: 400, height: 650 }} className='place-items-center' cols={2} rowHeight={164}>
             {cards.map((card) => (
             <ImageListItem key={card.img} className='w-40 place-content-center'>
               <img
@@ -126,7 +126,7 @@ function Home() {
             </ImageListItem>
           ))}
           </ImageList>
-          <img className='w-2/3' alt='flatiron' src={flatiron}/>
+          <img className='w-2/3 pt-4' alt='flatiron' src={flatiron}/>
           </Grid>
         </Container>
       </main>
