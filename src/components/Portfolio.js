@@ -16,25 +16,25 @@ const projects= [{
   img: vault, 
   title: "The Vault", 
   description: "Effortlessly manage your personal trading cards with our application, “The Vault”.",
-  link: "https://medium.com/@kmparks60/tartes-to-tech-fd357e9907b8"
+  link: "https://github.com/JimTensen/GROUP-PROJECT"
 },
 { 
   img: bb, 
   title: "Blockbuster Employee Portal",
   description: "Use our employee portal to seamlessly manage inventory and client data.",
-  link: "https://medium.com/@kmparks60/2-5-vs-code-extensions-that-will-save-you-time-4b141f2bb8d1"
+  link: "https://github.com/CBurl1/blockbuster-employee-portal"
 },
 {
   img: crm,
   title: "Flatiron Pharmacy",
   description: "Enhance your business with the Flatiron Pharmacy CRM, designed to streamline customer interactions.",
-  link: "https://medium.com/@kmparks60/understanding-python-and-transitioning-into-sql-642e3b7dff50"
+  link: "https://github.com/kmparks60/FlatironPharmacy"
 },
 {
   img: lushly, 
   title: "Lushly",
   description: "E-Commerce CRM with full order tracking and notifications.",
-  link: "https://medium.com/@kmparks60/let-blogtopic-js-basics-pt-1-f14b0569e8a9"
+  link: "https://github.com/bvinh2709/lushly"
 }
 ];
 
