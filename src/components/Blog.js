@@ -64,7 +64,7 @@ function Blog() {
                       {blog.title}
                     </Typography>
                   </CardContent>
-                  <Link to={blog.link}>
+                  <Link target="_blank" rel="noopener noreferrer" to={blog.link}>
                     <Typography component="h6"
                                 variant="h6"
                                 className='bg-slate-400 text-blue-600 pb-2 pl-2 underline'>

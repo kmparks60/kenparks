@@ -59,7 +59,7 @@ function Portfolio() {
                       {project.description}
                     </Typography>
                   </CardContent>
-                  <Link to={project.link}>
+                  <Link target="_blank" rel="noopener noreferrer" to={project.link}>
                     <Typography component="h6"
                                 variant="h6"
                                 className='bg-slate-400 text-blue-600 pb-2 pl-2 underline'>
